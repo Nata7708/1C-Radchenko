@@ -29,6 +29,8 @@
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.СтоимостьМатериалов</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.Продажи</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.РейтингУслуг</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.ПереченьУслуг</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.РейтингКлиентов</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

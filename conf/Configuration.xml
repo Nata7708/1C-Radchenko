@@ -251,6 +251,10 @@
 			<Report>Материалы</Report>
 			<Report>РеестрДокументовОказаниеУслуги</Report>
 			<Report>РейтингУслуг</Report>
+			<Report>ВыручкаМастеров</Report>
+			<Report>ПереченьУслуг</Report>
+			<Report>РейтингКлиентов</Report>
+			<Report>Универсальный</Report>
 			<InformationRegister>Цены</InformationRegister>
 			<AccumulationRegister>ОстаткиМатериалов</AccumulationRegister>
 			<AccumulationRegister>СтоимостьМатериалов</AccumulationRegister>
