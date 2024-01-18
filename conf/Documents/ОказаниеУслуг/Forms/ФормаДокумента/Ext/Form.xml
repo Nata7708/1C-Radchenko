@@ -101,13 +101,6 @@
 						<Event name="OnChange">ПереченьНоменклатурыКоличествоПриИзменении</Event>
 					</Events>
 				</InputField>
-				<InputField name="ПереченьНоменклатурыСтоимость" id="44">
-					<DataPath>Объект.ПереченьНоменклатуры.Стоимость</DataPath>
-					<EditMode>EnterOnInput</EditMode>
-					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<ContextMenu name="ПереченьНоменклатурыСтоимостьКонтекстноеМеню" id="45"/>
-					<ExtendedTooltip name="ПереченьНоменклатурыСтоимостьРасширеннаяПодсказка" id="46"/>
-				</InputField>
 				<InputField name="ПереченьНоменклатурыЦена" id="38">
 					<DataPath>Объект.ПереченьНоменклатуры.Цена</DataPath>
 					<EditMode>EnterOnInput</EditMode>
