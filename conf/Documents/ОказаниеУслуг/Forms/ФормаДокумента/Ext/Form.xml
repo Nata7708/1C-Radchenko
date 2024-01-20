@@ -91,6 +91,13 @@
 						<Event name="OnChange">ПереченьНоменклатурыНоменклатураПриИзменении</Event>
 					</Events>
 				</InputField>
+				<InputField name="ПереченьНоменклатурыНаборСвойств" id="44">
+					<DataPath>Объект.ПереченьНоменклатуры.НаборСвойств</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ПереченьНоменклатурыНаборСвойствКонтекстноеМеню" id="45"/>
+					<ExtendedTooltip name="ПереченьНоменклатурыНаборСвойствРасширеннаяПодсказка" id="46"/>
+				</InputField>
 				<InputField name="ПереченьНоменклатурыКоличество" id="35">
 					<DataPath>Объект.ПереченьНоменклатуры.Количество</DataPath>
 					<EditMode>EnterOnInput</EditMode>

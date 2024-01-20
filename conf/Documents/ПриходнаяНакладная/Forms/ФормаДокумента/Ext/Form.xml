@@ -74,6 +74,13 @@
 					<ContextMenu name="МатериалыМатериалКонтекстноеМеню" id="27"/>
 					<ExtendedTooltip name="МатериалыМатериалРасширеннаяПодсказка" id="28"/>
 				</InputField>
+				<InputField name="МатериалыНаборСвойств" id="38">
+					<DataPath>Объект.Материалы.НаборСвойств</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="МатериалыНаборСвойствКонтекстноеМеню" id="39"/>
+					<ExtendedTooltip name="МатериалыНаборСвойствРасширеннаяПодсказка" id="40"/>
+				</InputField>
 				<InputField name="МатериалыКоличество" id="29">
 					<DataPath>Объект.Материалы.Количество</DataPath>
 					<EditMode>EnterOnInput</EditMode>
