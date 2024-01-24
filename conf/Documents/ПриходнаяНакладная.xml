@@ -1,26 +1,26 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
-	<Document uuid="d5ea36bf-cedc-4e4d-b561-4d63e113f397">
+	<Document uuid="5323bd0a-7379-4f30-8f86-035fb108dc7b">
 		<InternalInfo>
 			<xr:GeneratedType name="DocumentObject.ПриходнаяНакладная" category="Object">
-				<xr:TypeId>4f5970d5-e9c2-4ffc-bf2e-f3b079f61afe</xr:TypeId>
-				<xr:ValueId>b4805849-d9fb-4832-b162-73ccd5df8526</xr:ValueId>
+				<xr:TypeId>d2fe1528-c66a-490e-82a6-7c7c2aacd7e2</xr:TypeId>
+				<xr:ValueId>ef967ecd-4c05-4264-82ab-8446c2bbdf2a</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="DocumentRef.ПриходнаяНакладная" category="Ref">
-				<xr:TypeId>ecb26fb9-2be6-4ce3-8688-f1ab0d0681eb</xr:TypeId>
-				<xr:ValueId>ca45b149-7495-4fa3-b11e-3d308f7fae40</xr:ValueId>
+				<xr:TypeId>2b17ee52-b41a-4f53-8b0e-244d8b5e5418</xr:TypeId>
+				<xr:ValueId>e134b2f7-8032-4e43-ae27-7e7bd3048494</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="DocumentSelection.ПриходнаяНакладная" category="Selection">
-				<xr:TypeId>cab929f0-2c58-4583-8727-b35170bb9477</xr:TypeId>
-				<xr:ValueId>65cacf16-c7db-459d-a698-667716924402</xr:ValueId>
+				<xr:TypeId>5dc9e824-d197-4af9-b824-924281a3787d</xr:TypeId>
+				<xr:ValueId>94b281ec-c556-4e63-87b2-292dbd78fe0a</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="DocumentList.ПриходнаяНакладная" category="List">
-				<xr:TypeId>3fe9fa23-50e5-4a22-825c-d30d75d4b993</xr:TypeId>
-				<xr:ValueId>9d6a7ce5-228f-45e4-bd7b-d2d20b0abf67</xr:ValueId>
+				<xr:TypeId>90d6bbfb-577f-4baf-af9f-ab8779198f0e</xr:TypeId>
+				<xr:ValueId>37a24a7a-85d2-411b-8d96-9a5d2300194f</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="DocumentManager.ПриходнаяНакладная" category="Manager">
-				<xr:TypeId>a70313dc-17ee-4884-9b5d-ad8c3f43e3f4</xr:TypeId>
-				<xr:ValueId>500349b8-6dbc-4064-a04d-ad260c17c307</xr:ValueId>
+				<xr:TypeId>7a4dae1a-543c-4b31-86af-79ca2b816df0</xr:TypeId>
+				<xr:ValueId>22a4e6eb-833a-4f2a-a1fd-c03c8eb6f58d</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
@@ -61,8 +61,9 @@
 			<RegisterRecordsWritingOnPost>WriteSelected</RegisterRecordsWritingOnPost>
 			<SequenceFilling>AutoFill</SequenceFilling>
 			<RegisterRecords>
-				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.СтоимостьМатериалов</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ОстаткиМатериалов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">AccountingRegister.Управленческий</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.СтоимостьМатериалов</xr:Item>
 			</RegisterRecords>
 			<PostInPrivilegedMode>true</PostInPrivilegedMode>
 			<UnpostInPrivilegedMode>true</UnpostInPrivilegedMode>
@@ -86,7 +87,7 @@
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="88c19005-bbac-4ad8-9a58-d26dea98fcff">
+			<Attribute uuid="50c8b0ba-0f52-44ac-9ae6-ba57e3408e72">
 				<Properties>
 					<Name>Склад</Name>
 					<Synonym>
@@ -126,15 +127,15 @@
 				</Properties>
 			</Attribute>
 			<Form>ФормаДокумента</Form>
-			<TabularSection uuid="df5eb285-e074-4ddc-a9a8-fbd90a9c9f63">
+			<TabularSection uuid="eafeb076-5a2a-4d00-a18d-673bbe0b3d2a">
 				<InternalInfo>
 					<xr:GeneratedType name="DocumentTabularSection.ПриходнаяНакладная.Материалы" category="TabularSection">
-						<xr:TypeId>9bb93b3d-8b6c-4cbf-a674-9e07379aa9e9</xr:TypeId>
-						<xr:ValueId>739bcc47-2787-41f4-badc-af9c169a2532</xr:ValueId>
+						<xr:TypeId>2acaa071-58a8-4779-bf6c-b030af58f2d4</xr:TypeId>
+						<xr:ValueId>e8ff247d-fec6-4d33-b30e-e2367acd29c5</xr:ValueId>
 					</xr:GeneratedType>
 					<xr:GeneratedType name="DocumentTabularSectionRow.ПриходнаяНакладная.Материалы" category="TabularSectionRow">
-						<xr:TypeId>87fce5a4-c900-4b89-8a7e-a7259a9ad630</xr:TypeId>
-						<xr:ValueId>e95db240-82b8-4111-8724-fcd76d6d6a29</xr:ValueId>
+						<xr:TypeId>2fc87eb5-0223-4d6e-b4c9-8ede55b68fc1</xr:TypeId>
+						<xr:ValueId>c22a93b8-683c-4ef3-968d-128642509c98</xr:ValueId>
 					</xr:GeneratedType>
 				</InternalInfo>
 				<Properties>
@@ -150,7 +151,7 @@
 					<FillChecking>ShowError</FillChecking>
 				</Properties>
 				<ChildObjects>
-					<Attribute uuid="47c2612f-37f6-456e-bcdd-7d93a4c43787">
+					<Attribute uuid="b916799e-338e-4bfd-b458-1d76a52202cd">
 						<Properties>
 							<Name>Материал</Name>
 							<Synonym>
@@ -187,7 +188,7 @@
 							<DataHistory>Use</DataHistory>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="0b544809-2a84-498e-8380-47e82e4d3993">
+					<Attribute uuid="387843c7-4d0f-499d-8fff-4c1942e808e5">
 						<Properties>
 							<Name>Количество</Name>
 							<Synonym>
@@ -229,7 +230,7 @@
 							<DataHistory>Use</DataHistory>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="86638180-5847-469b-afa4-aac9bf8b8121">
+					<Attribute uuid="9f470051-0998-498d-a0af-b14ecbe88e25">
 						<Properties>
 							<Name>Цена</Name>
 							<Synonym>
@@ -271,7 +272,7 @@
 							<DataHistory>Use</DataHistory>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="cc4b9b7e-c4e5-4dcf-ac09-96cc18625749">
+					<Attribute uuid="c9b4c232-e000-4bce-9a03-9023f5f88fdb">
 						<Properties>
 							<Name>Сумма</Name>
 							<Synonym>
@@ -313,7 +314,7 @@
 							<DataHistory>Use</DataHistory>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="ad66216d-95e7-4360-a856-97c8484a3ec0">
+					<Attribute uuid="5431d3a8-9eda-4918-8492-b2f848d80b9b">
 						<Properties>
 							<Name>НаборСвойств</Name>
 							<Synonym>

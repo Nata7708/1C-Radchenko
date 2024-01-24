@@ -1,26 +1,26 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
-	<Catalog uuid="1f8fbf2d-d016-4771-944c-2f54f60d6046">
+	<Catalog uuid="e69bbe5c-56ef-4709-949f-fdda4fd0c01f">
 		<InternalInfo>
 			<xr:GeneratedType name="CatalogObject.Клиенты" category="Object">
-				<xr:TypeId>96f3a941-c9f0-4a42-acc5-b2d81e263069</xr:TypeId>
-				<xr:ValueId>7a24999b-8630-4dae-b983-c0a72093b518</xr:ValueId>
+				<xr:TypeId>1ee53b43-206a-46b9-a1b4-59056a044ed0</xr:TypeId>
+				<xr:ValueId>df4148a6-2186-4fe5-ab98-d7411a62bfd5</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogRef.Клиенты" category="Ref">
-				<xr:TypeId>83b005cd-2f63-47ce-b783-e681b759bcf7</xr:TypeId>
-				<xr:ValueId>c9d9207f-aaaf-4f70-89df-82fcf6b93a7d</xr:ValueId>
+				<xr:TypeId>b796b044-6f5d-438d-9d24-d28e421c43c2</xr:TypeId>
+				<xr:ValueId>c6c4f8ea-9d71-4078-823f-bfed5ef8558e</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogSelection.Клиенты" category="Selection">
-				<xr:TypeId>fb574c9e-e9a1-41be-a092-e1b37f5bac2e</xr:TypeId>
-				<xr:ValueId>198a914e-e2c1-489f-9be7-28698bb67388</xr:ValueId>
+				<xr:TypeId>a14a6cf3-ffdf-415c-b5f5-832a22c804bb</xr:TypeId>
+				<xr:ValueId>9be218b0-6422-4730-9266-7de62193bb65</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogList.Клиенты" category="List">
-				<xr:TypeId>64dcf3f2-d2ca-4083-a87e-842e8a916c3a</xr:TypeId>
-				<xr:ValueId>c1ae6c65-fa40-4792-8417-dbfe224d0def</xr:ValueId>
+				<xr:TypeId>f25f4fdc-be6f-417e-9e33-7e963790e061</xr:TypeId>
+				<xr:ValueId>2c979f72-321f-4fc4-a465-9664e139137d</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogManager.Клиенты" category="Manager">
-				<xr:TypeId>97f3a004-80ff-4e26-8145-907f2c4c0e5a</xr:TypeId>
-				<xr:ValueId>4ed650a8-f398-46eb-8046-c9a9f5875c1d</xr:ValueId>
+				<xr:TypeId>48fbd715-9f89-484e-affa-49e6a31ffeb3</xr:TypeId>
+				<xr:ValueId>4eee8eea-967c-4b9b-8cbb-53d75d7beb0c</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
@@ -252,7 +252,7 @@
 					<xr:Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Ф.И.О.</v8:content>
+							<v8:content>Ф. И. О.</v8:content>
 						</v8:item>
 					</xr:Synonym>
 					<xr:Comment/>

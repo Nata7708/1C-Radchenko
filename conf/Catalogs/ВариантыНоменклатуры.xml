@@ -1,26 +1,26 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
-	<Catalog uuid="cdb8cc96-7764-42bb-b392-0cab741015c9">
+	<Catalog uuid="2ca497f5-8df5-4414-877b-8b49c8d5dfa9">
 		<InternalInfo>
 			<xr:GeneratedType name="CatalogObject.ВариантыНоменклатуры" category="Object">
-				<xr:TypeId>be3a0e1e-3028-4ccd-a30d-70a3e0a3bb0e</xr:TypeId>
-				<xr:ValueId>f393d9f4-9d6c-4699-aee8-09486f3ab92e</xr:ValueId>
+				<xr:TypeId>c5659e6e-65b9-41c3-84eb-76eade5b27fa</xr:TypeId>
+				<xr:ValueId>f3817146-00b4-428d-b5df-46957cb526fd</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogRef.ВариантыНоменклатуры" category="Ref">
-				<xr:TypeId>5a69cea3-0ed7-4cf7-a027-fe94d5515612</xr:TypeId>
-				<xr:ValueId>8d18c5d6-7cd1-453c-bf19-dcf3f4b0f9ca</xr:ValueId>
+				<xr:TypeId>39587114-05c5-469d-8bb3-9753bbaf4736</xr:TypeId>
+				<xr:ValueId>803f4e80-7c0a-4cac-8966-d3adfc2fe646</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogSelection.ВариантыНоменклатуры" category="Selection">
-				<xr:TypeId>357936a0-bfbd-40c8-8dde-2e8f60a760e9</xr:TypeId>
-				<xr:ValueId>d2b01a64-3815-4796-87f6-e21477751ace</xr:ValueId>
+				<xr:TypeId>938c3f52-de6c-4595-a886-d7c474824802</xr:TypeId>
+				<xr:ValueId>84d3dba0-ff04-4439-8787-2ecefb28dd47</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogList.ВариантыНоменклатуры" category="List">
-				<xr:TypeId>9c9e20e9-6171-4f6a-bfb7-1963fa67aa36</xr:TypeId>
-				<xr:ValueId>5cd49518-d5ce-4612-8849-d33afa95294a</xr:ValueId>
+				<xr:TypeId>b87c5019-c90f-40f4-8f1a-4772824b5a80</xr:TypeId>
+				<xr:ValueId>003d9583-36ba-4872-a34d-ab0d8faaa623</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogManager.ВариантыНоменклатуры" category="Manager">
-				<xr:TypeId>a7c57524-3d35-4dfa-a420-f6f61c1d2c52</xr:TypeId>
-				<xr:ValueId>c00ec0f8-c0f3-4305-a736-9d6fa7e2d1fd</xr:ValueId>
+				<xr:TypeId>7937909b-6c23-48eb-9269-ab07f7b7280a</xr:TypeId>
+				<xr:ValueId>c8d7ee0b-15d9-449b-8d3c-c549dc76d913</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
@@ -293,18 +293,18 @@
 			</StandardAttributes>
 			<Characteristics>
 				<xr:Characteristic>
-					<xr:CharacteristicTypes from="ChartOfCharacteristicTypes.СвойстваНомеклатуры">
-						<xr:KeyField>ChartOfCharacteristicTypes.СвойстваНомеклатуры.StandardAttribute.Ref</xr:KeyField>
+					<xr:CharacteristicTypes from="ChartOfCharacteristicTypes.СвойстваНоменклатуры">
+						<xr:KeyField>ChartOfCharacteristicTypes.СвойстваНоменклатуры.StandardAttribute.Ref</xr:KeyField>
 						<xr:TypesFilterField>-1</xr:TypesFilterField>
 						<xr:TypesFilterValue xsi:nil="true"/>
-						<xr:DataPathField>ChartOfCharacteristicTypes.СвойстваНомеклатуры.StandardAttribute.Ref</xr:DataPathField>
+						<xr:DataPathField>-1</xr:DataPathField>
 						<xr:MultipleValuesUseField>-1</xr:MultipleValuesUseField>
 					</xr:CharacteristicTypes>
-					<xr:CharacteristicValues from="InformationRegister.ЗначенияСвойстваНоменклатуры">
-						<xr:ObjectField>InformationRegister.ЗначенияСвойстваНоменклатуры.Dimension.НаборСвойств</xr:ObjectField>
-						<xr:TypeField>InformationRegister.ЗначенияСвойстваНоменклатуры.Dimension.ВидСвойства</xr:TypeField>
-						<xr:ValueField>-1</xr:ValueField>
-						<xr:MultipleValuesKeyField>InformationRegister.ЗначенияСвойстваНоменклатуры.Resource.Значение</xr:MultipleValuesKeyField>
+					<xr:CharacteristicValues from="InformationRegister.ЗначенияСвойствНоменклатуры">
+						<xr:ObjectField>InformationRegister.ЗначенияСвойствНоменклатуры.Dimension.НаборСвойств</xr:ObjectField>
+						<xr:TypeField>InformationRegister.ЗначенияСвойствНоменклатуры.Dimension.ВидСвойства</xr:TypeField>
+						<xr:ValueField>InformationRegister.ЗначенияСвойствНоменклатуры.Resource.Значение</xr:ValueField>
+						<xr:MultipleValuesKeyField>-1</xr:MultipleValuesKeyField>
 						<xr:MultipleValuesOrderField>-1</xr:MultipleValuesOrderField>
 					</xr:CharacteristicValues>
 				</xr:Characteristic>

@@ -25,8 +25,12 @@
 			<UseAlternationRowColor>true</UseAlternationRowColor>
 			<InitialTreeView>ExpandTopLevel</InitialTreeView>
 			<EnableStartDrag>true</EnableStartDrag>
+			<FileDragMode>AsFile</FileDragMode>
 			<DataPath>Список</DataPath>
 			<RowPictureDataPath>Список.DefaultPicture</RowPictureDataPath>
+			<SearchStringLocation>None</SearchStringLocation>
+			<ViewStatusLocation>None</ViewStatusLocation>
+			<SearchControlLocation>None</SearchControlLocation>
 			<AutoRefresh>false</AutoRefresh>
 			<AutoRefreshPeriod>60</AutoRefreshPeriod>
 			<Period>
@@ -47,41 +51,41 @@
 				<Autofill>false</Autofill>
 			</AutoCommandBar>
 			<ExtendedTooltip name="СписокРасширеннаяПодсказка" id="6"/>
-			<SearchStringAddition name="СписокСтрокаПоиска" id="7">
+			<SearchStringAddition name="СписокСтрокаПоиска" id="13">
 				<AdditionSource>
 					<Item>Список</Item>
 					<Type>SearchStringRepresentation</Type>
 				</AdditionSource>
-				<ContextMenu name="СписокСтрокаПоискаКонтекстноеМеню" id="8"/>
-				<ExtendedTooltip name="СписокСтрокаПоискаРасширеннаяПодсказка" id="9"/>
+				<ContextMenu name="СписокСтрокаПоискаКонтекстноеМеню" id="14"/>
+				<ExtendedTooltip name="СписокСтрокаПоискаРасширеннаяПодсказка" id="15"/>
 			</SearchStringAddition>
-			<ViewStatusAddition name="СписокСостояниеПросмотра" id="10">
+			<ViewStatusAddition name="СписокСостояниеПросмотра" id="16">
 				<AdditionSource>
 					<Item>Список</Item>
 					<Type>ViewStatusRepresentation</Type>
 				</AdditionSource>
-				<ContextMenu name="СписокСостояниеПросмотраКонтекстноеМеню" id="11"/>
-				<ExtendedTooltip name="СписокСостояниеПросмотраРасширеннаяПодсказка" id="12"/>
+				<ContextMenu name="СписокСостояниеПросмотраКонтекстноеМеню" id="17"/>
+				<ExtendedTooltip name="СписокСостояниеПросмотраРасширеннаяПодсказка" id="18"/>
 			</ViewStatusAddition>
-			<SearchControlAddition name="СписокУправлениеПоиском" id="13">
+			<SearchControlAddition name="СписокУправлениеПоиском" id="19">
 				<AdditionSource>
 					<Item>Список</Item>
 					<Type>SearchControl</Type>
 				</AdditionSource>
-				<ContextMenu name="СписокУправлениеПоискомКонтекстноеМеню" id="14"/>
-				<ExtendedTooltip name="СписокУправлениеПоискомРасширеннаяПодсказка" id="15"/>
+				<ContextMenu name="СписокУправлениеПоискомКонтекстноеМеню" id="20"/>
+				<ExtendedTooltip name="СписокУправлениеПоискомРасширеннаяПодсказка" id="21"/>
 			</SearchControlAddition>
 			<ChildItems>
-				<LabelField name="Наименование" id="16">
+				<LabelField name="Наименование" id="7">
 					<DataPath>Список.Description</DataPath>
 					<DefaultItem>true</DefaultItem>
-					<ContextMenu name="НаименованиеКонтекстноеМеню" id="17"/>
-					<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="18"/>
+					<ContextMenu name="НаименованиеКонтекстноеМеню" id="8"/>
+					<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="9"/>
 				</LabelField>
-				<LabelField name="Код" id="19">
+				<LabelField name="Код" id="10">
 					<DataPath>Список.Code</DataPath>
-					<ContextMenu name="КодКонтекстноеМеню" id="20"/>
-					<ExtendedTooltip name="КодРасширеннаяПодсказка" id="21"/>
+					<ContextMenu name="КодКонтекстноеМеню" id="11"/>
+					<ExtendedTooltip name="КодРасширеннаяПодсказка" id="12"/>
 				</LabelField>
 			</ChildItems>
 		</Table>

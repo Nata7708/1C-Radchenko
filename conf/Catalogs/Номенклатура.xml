@@ -1,26 +1,26 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
-	<Catalog uuid="6ca8c108-f070-49df-89ad-e8634e2c21c2">
+	<Catalog uuid="08b5660b-4a87-4596-a86e-1285e74bc376">
 		<InternalInfo>
 			<xr:GeneratedType name="CatalogObject.Номенклатура" category="Object">
-				<xr:TypeId>26f7ebbe-99b6-4e79-8a60-77cdea9266ff</xr:TypeId>
-				<xr:ValueId>c1e7e830-e686-48ce-bd51-9ff12f0012a7</xr:ValueId>
+				<xr:TypeId>a4a633c3-344d-4fe7-ad9d-6ca7bc9def13</xr:TypeId>
+				<xr:ValueId>6c9b1653-ada9-4995-ae06-888bcbded6c9</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogRef.Номенклатура" category="Ref">
-				<xr:TypeId>6030bc55-4cf7-4b34-b11e-d02eeb72d04d</xr:TypeId>
-				<xr:ValueId>47c43aaa-c701-4248-b876-20da2235bd1a</xr:ValueId>
+				<xr:TypeId>d8c036ef-fa46-4326-b5e7-031f0f9793bd</xr:TypeId>
+				<xr:ValueId>0d5b1205-6eab-4ed9-828b-31a74d6797df</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogSelection.Номенклатура" category="Selection">
-				<xr:TypeId>830d5b62-ef69-4c21-97a3-acbeb7fba1fb</xr:TypeId>
-				<xr:ValueId>36bbf853-6628-40a4-8fa6-6db42609b43b</xr:ValueId>
+				<xr:TypeId>5afecb16-3f42-4f06-a944-5ba74de331f7</xr:TypeId>
+				<xr:ValueId>3b7930f6-031c-4354-85b5-8891d1f1883e</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogList.Номенклатура" category="List">
-				<xr:TypeId>30941ddc-4114-44bd-9d37-9cd5fe9b26f8</xr:TypeId>
-				<xr:ValueId>c3c795f8-9620-4cdf-ad52-c576775378f6</xr:ValueId>
+				<xr:TypeId>e57c08c2-f348-4151-91ef-aeb443714938</xr:TypeId>
+				<xr:ValueId>fdb94721-89f7-471d-b244-bfe10a7abeee</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogManager.Номенклатура" category="Manager">
-				<xr:TypeId>234cc3cc-d442-42e1-adf0-e030984b3853</xr:TypeId>
-				<xr:ValueId>76c8cca2-45c6-4acd-941b-5c4a912651ae</xr:ValueId>
+				<xr:TypeId>cc329bcd-89ee-40f1-8e0f-0d4aaf39c7df</xr:TypeId>
+				<xr:ValueId>d4d4cc54-2150-46ef-a8ff-b4c540762a93</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
@@ -299,8 +299,8 @@
 				<xr:Field>Catalog.Номенклатура.StandardAttribute.Code</xr:Field>
 			</InputByString>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
-			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
-			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
+			<FullTextSearchOnInputByString>Use</FullTextSearchOnInputByString>
+			<ChoiceDataGetModeOnInputByString>Background</ChoiceDataGetModeOnInputByString>
 			<DefaultObjectForm/>
 			<DefaultFolderForm/>
 			<DefaultListForm/>
@@ -328,7 +328,7 @@
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="e2442c1c-e541-4462-b9b1-edb5b48d4db1">
+			<Attribute uuid="2649bc65-631a-42e0-b513-560dd221592a">
 				<Properties>
 					<Name>ВидНоменклатуры</Name>
 					<Synonym>

@@ -8,21 +8,18 @@
 		<InputField name="Номер" id="1">
 			<DataPath>Объект.Number</DataPath>
 			<EditMode>EnterOnInput</EditMode>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 			<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
 			<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
 		</InputField>
 		<InputField name="Дата" id="4">
 			<DataPath>Объект.Date</DataPath>
 			<EditMode>EnterOnInput</EditMode>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 			<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
 			<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
 		</InputField>
 		<InputField name="Склад" id="7">
 			<DataPath>Объект.Склад</DataPath>
 			<EditMode>EnterOnInput</EditMode>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 			<ContextMenu name="СкладКонтекстноеМеню" id="8"/>
 			<ExtendedTooltip name="СкладРасширеннаяПодсказка" id="9"/>
 		</InputField>
@@ -31,82 +28,81 @@
 			<AutoInsertNewRow>true</AutoInsertNewRow>
 			<EnableStartDrag>true</EnableStartDrag>
 			<EnableDrag>true</EnableDrag>
+			<FileDragMode>AsFile</FileDragMode>
 			<DataPath>Объект.Материалы</DataPath>
+			<SearchStringLocation>None</SearchStringLocation>
+			<ViewStatusLocation>None</ViewStatusLocation>
+			<SearchControlLocation>None</SearchControlLocation>
 			<RowFilter xsi:nil="true"/>
 			<ContextMenu name="МатериалыКонтекстноеМеню" id="11"/>
 			<AutoCommandBar name="МатериалыКоманднаяПанель" id="12"/>
 			<ExtendedTooltip name="МатериалыРасширеннаяПодсказка" id="13"/>
-			<SearchStringAddition name="МатериалыСтрокаПоиска" id="14">
+			<SearchStringAddition name="МатериалыСтрокаПоиска" id="32">
 				<AdditionSource>
 					<Item>Материалы</Item>
 					<Type>SearchStringRepresentation</Type>
 				</AdditionSource>
-				<ContextMenu name="МатериалыСтрокаПоискаКонтекстноеМеню" id="15"/>
-				<ExtendedTooltip name="МатериалыСтрокаПоискаРасширеннаяПодсказка" id="16"/>
+				<ContextMenu name="МатериалыСтрокаПоискаКонтекстноеМеню" id="33"/>
+				<ExtendedTooltip name="МатериалыСтрокаПоискаРасширеннаяПодсказка" id="34"/>
 			</SearchStringAddition>
-			<ViewStatusAddition name="МатериалыСостояниеПросмотра" id="17">
+			<ViewStatusAddition name="МатериалыСостояниеПросмотра" id="35">
 				<AdditionSource>
 					<Item>Материалы</Item>
 					<Type>ViewStatusRepresentation</Type>
 				</AdditionSource>
-				<ContextMenu name="МатериалыСостояниеПросмотраКонтекстноеМеню" id="18"/>
-				<ExtendedTooltip name="МатериалыСостояниеПросмотраРасширеннаяПодсказка" id="19"/>
+				<ContextMenu name="МатериалыСостояниеПросмотраКонтекстноеМеню" id="36"/>
+				<ExtendedTooltip name="МатериалыСостояниеПросмотраРасширеннаяПодсказка" id="37"/>
 			</ViewStatusAddition>
-			<SearchControlAddition name="МатериалыУправлениеПоиском" id="20">
+			<SearchControlAddition name="МатериалыУправлениеПоиском" id="38">
 				<AdditionSource>
 					<Item>Материалы</Item>
 					<Type>SearchControl</Type>
 				</AdditionSource>
-				<ContextMenu name="МатериалыУправлениеПоискомКонтекстноеМеню" id="21"/>
-				<ExtendedTooltip name="МатериалыУправлениеПоискомРасширеннаяПодсказка" id="22"/>
+				<ContextMenu name="МатериалыУправлениеПоискомКонтекстноеМеню" id="39"/>
+				<ExtendedTooltip name="МатериалыУправлениеПоискомРасширеннаяПодсказка" id="40"/>
 			</SearchControlAddition>
 			<ChildItems>
-				<LabelField name="МатериалыНомерСтроки" id="23">
+				<LabelField name="МатериалыНомерСтроки" id="14">
 					<DataPath>Объект.Материалы.LineNumber</DataPath>
 					<EditMode>EnterOnInput</EditMode>
-					<ContextMenu name="МатериалыНомерСтрокиКонтекстноеМеню" id="24"/>
-					<ExtendedTooltip name="МатериалыНомерСтрокиРасширеннаяПодсказка" id="25"/>
+					<ContextMenu name="МатериалыНомерСтрокиКонтекстноеМеню" id="15"/>
+					<ExtendedTooltip name="МатериалыНомерСтрокиРасширеннаяПодсказка" id="16"/>
 				</LabelField>
-				<InputField name="МатериалыМатериал" id="26">
+				<InputField name="МатериалыМатериал" id="17">
 					<DataPath>Объект.Материалы.Материал</DataPath>
 					<EditMode>EnterOnInput</EditMode>
-					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<ContextMenu name="МатериалыМатериалКонтекстноеМеню" id="27"/>
-					<ExtendedTooltip name="МатериалыМатериалРасширеннаяПодсказка" id="28"/>
+					<ContextMenu name="МатериалыМатериалКонтекстноеМеню" id="18"/>
+					<ExtendedTooltip name="МатериалыМатериалРасширеннаяПодсказка" id="19"/>
 				</InputField>
-				<InputField name="МатериалыНаборСвойств" id="38">
+				<InputField name="МатериалыНаборСвойств" id="29">
 					<DataPath>Объект.Материалы.НаборСвойств</DataPath>
 					<EditMode>EnterOnInput</EditMode>
-					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<ContextMenu name="МатериалыНаборСвойствКонтекстноеМеню" id="39"/>
-					<ExtendedTooltip name="МатериалыНаборСвойствРасширеннаяПодсказка" id="40"/>
+					<ContextMenu name="МатериалыНаборСвойствКонтекстноеМеню" id="30"/>
+					<ExtendedTooltip name="МатериалыНаборСвойствРасширеннаяПодсказка" id="31"/>
 				</InputField>
-				<InputField name="МатериалыКоличество" id="29">
+				<InputField name="МатериалыКоличество" id="20">
 					<DataPath>Объект.Материалы.Количество</DataPath>
 					<EditMode>EnterOnInput</EditMode>
-					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<ContextMenu name="МатериалыКоличествоКонтекстноеМеню" id="30"/>
-					<ExtendedTooltip name="МатериалыКоличествоРасширеннаяПодсказка" id="31"/>
+					<ContextMenu name="МатериалыКоличествоКонтекстноеМеню" id="21"/>
+					<ExtendedTooltip name="МатериалыКоличествоРасширеннаяПодсказка" id="22"/>
 					<Events>
 						<Event name="OnChange">МатериалыКоличествоПриИзменении</Event>
 					</Events>
 				</InputField>
-				<InputField name="МатериалыЦена" id="32">
+				<InputField name="МатериалыЦена" id="23">
 					<DataPath>Объект.Материалы.Цена</DataPath>
 					<EditMode>EnterOnInput</EditMode>
-					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<ContextMenu name="МатериалыЦенаКонтекстноеМеню" id="33"/>
-					<ExtendedTooltip name="МатериалыЦенаРасширеннаяПодсказка" id="34"/>
+					<ContextMenu name="МатериалыЦенаКонтекстноеМеню" id="24"/>
+					<ExtendedTooltip name="МатериалыЦенаРасширеннаяПодсказка" id="25"/>
 					<Events>
 						<Event name="OnChange">МатериалыЦенаПриИзменении</Event>
 					</Events>
 				</InputField>
-				<InputField name="МатериалыСумма" id="35">
+				<InputField name="МатериалыСумма" id="26">
 					<DataPath>Объект.Материалы.Сумма</DataPath>
 					<EditMode>EnterOnInput</EditMode>
-					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<ContextMenu name="МатериалыСуммаКонтекстноеМеню" id="36"/>
-					<ExtendedTooltip name="МатериалыСуммаРасширеннаяПодсказка" id="37"/>
+					<ContextMenu name="МатериалыСуммаКонтекстноеМеню" id="27"/>
+					<ExtendedTooltip name="МатериалыСуммаРасширеннаяПодсказка" id="28"/>
 				</InputField>
 			</ChildItems>
 		</Table>
@@ -132,6 +128,11 @@
 			</Item>
 			<Item>
 				<Command>AccumulationRegister.СтоимостьМатериалов.StandardCommand.OpenByRecorder</Command>
+				<Type>Auto</Type>
+				<DefaultVisible>false</DefaultVisible>
+			</Item>
+			<Item>
+				<Command>AccountingRegister.Управленческий.StandardCommand.OpenByRecorder</Command>
 				<Type>Auto</Type>
 				<DefaultVisible>false</DefaultVisible>
 			</Item>

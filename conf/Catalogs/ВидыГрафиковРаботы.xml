@@ -1,34 +1,34 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
-	<Catalog uuid="4e2b3492-1f21-4802-993f-5a224e46c51c">
+	<Catalog uuid="538c5d64-f5ec-46b3-b554-b4196be5660f">
 		<InternalInfo>
-			<xr:GeneratedType name="CatalogObject.Склады" category="Object">
-				<xr:TypeId>bfafb377-ca64-43f5-825d-66dce9462896</xr:TypeId>
-				<xr:ValueId>420940ad-2a05-475c-8123-56edd8741ce3</xr:ValueId>
+			<xr:GeneratedType name="CatalogObject.ВидыГрафиковРаботы" category="Object">
+				<xr:TypeId>aa8bffd4-ebeb-4714-9efb-6a72a9cf2009</xr:TypeId>
+				<xr:ValueId>c53af99e-4929-411f-8fec-6d5a597210ef</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogRef.Склады" category="Ref">
-				<xr:TypeId>341bb2a1-cecb-42c2-9b94-5e9806454633</xr:TypeId>
-				<xr:ValueId>6765f932-a0f0-4252-ba22-6ba0d90c3a7f</xr:ValueId>
+			<xr:GeneratedType name="CatalogRef.ВидыГрафиковРаботы" category="Ref">
+				<xr:TypeId>63826281-af79-432c-9bf6-bfed30e03a95</xr:TypeId>
+				<xr:ValueId>6142d61c-640d-4498-8fa3-4aefb7464187</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogSelection.Склады" category="Selection">
-				<xr:TypeId>a813a9f1-61e7-42ca-887a-4c6e57ca1218</xr:TypeId>
-				<xr:ValueId>57b2a8e3-b270-4b96-af98-dc973975f733</xr:ValueId>
+			<xr:GeneratedType name="CatalogSelection.ВидыГрафиковРаботы" category="Selection">
+				<xr:TypeId>b1684b66-1485-4ea3-9a24-487e2a4b8d77</xr:TypeId>
+				<xr:ValueId>cee0fb19-01b7-45b8-8a38-6487e7729e6c</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogList.Склады" category="List">
-				<xr:TypeId>b5b9b230-c650-461d-a7f3-8e9431a25267</xr:TypeId>
-				<xr:ValueId>5f82abc9-640c-473a-b8b4-3014a545dc26</xr:ValueId>
+			<xr:GeneratedType name="CatalogList.ВидыГрафиковРаботы" category="List">
+				<xr:TypeId>791051fc-ac1e-4bd8-8537-2f1f763b6189</xr:TypeId>
+				<xr:ValueId>bb6afecd-9956-4ec1-b558-4c39f76a4e88</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogManager.Склады" category="Manager">
-				<xr:TypeId>f7c40258-521d-4062-91d4-b6939d9c29a4</xr:TypeId>
-				<xr:ValueId>33703056-f1ab-49ec-810b-44ffff8d4253</xr:ValueId>
+			<xr:GeneratedType name="CatalogManager.ВидыГрафиковРаботы" category="Manager">
+				<xr:TypeId>a1fcdf13-08bc-4dac-95b8-36d35baaeda9</xr:TypeId>
+				<xr:ValueId>a214f807-3ed6-46da-a61c-fc02628a76f3</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>Склады</Name>
+			<Name>ВидыГрафиковРаботы</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Склады</v8:content>
+					<v8:content>Виды графиков работы</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -51,11 +51,11 @@
 			<Characteristics/>
 			<PredefinedDataUpdate>Auto</PredefinedDataUpdate>
 			<EditType>InDialog</EditType>
-			<QuickChoice>true</QuickChoice>
+			<QuickChoice>false</QuickChoice>
 			<ChoiceMode>BothWays</ChoiceMode>
 			<InputByString>
-				<xr:Field>Catalog.Склады.StandardAttribute.Description</xr:Field>
-				<xr:Field>Catalog.Склады.StandardAttribute.Code</xr:Field>
+				<xr:Field>Catalog.ВидыГрафиковРаботы.StandardAttribute.Description</xr:Field>
+				<xr:Field>Catalog.ВидыГрафиковРаботы.StandardAttribute.Code</xr:Field>
 			</InputByString>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
@@ -75,12 +75,7 @@
 			<DataLockFields/>
 			<DataLockControlMode>Managed</DataLockControlMode>
 			<FullTextSearch>Use</FullTextSearch>
-			<ObjectPresentation>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Склад</v8:content>
-				</v8:item>
-			</ObjectPresentation>
+			<ObjectPresentation/>
 			<ExtendedObjectPresentation/>
 			<ListPresentation/>
 			<ExtendedListPresentation/>

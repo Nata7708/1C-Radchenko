@@ -1,26 +1,26 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
-	<Catalog uuid="98127047-80d3-4dd2-9521-583747b08a2d">
+	<Catalog uuid="b5bddbd1-6cb4-49d3-83fd-1fa6e0af066c">
 		<InternalInfo>
 			<xr:GeneratedType name="CatalogObject.ДополнительныеСвойстваНоменклатуры" category="Object">
-				<xr:TypeId>b3b66c2f-385d-4095-abf5-3f9cb82dbb47</xr:TypeId>
-				<xr:ValueId>380140a6-e2db-4e53-a016-585b64dbf3da</xr:ValueId>
+				<xr:TypeId>08b20dd8-1a9c-4124-be17-de1d0c843fee</xr:TypeId>
+				<xr:ValueId>7ba2e5f6-8c47-4bb4-8219-3d2281123ae6</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogRef.ДополнительныеСвойстваНоменклатуры" category="Ref">
-				<xr:TypeId>23cf93ba-492b-4d23-8006-38cb03736486</xr:TypeId>
-				<xr:ValueId>6ca5cf3c-9224-4e48-8c63-7d3af12e32e3</xr:ValueId>
+				<xr:TypeId>c5c3fc6c-8cad-486a-a79f-a0ac85254662</xr:TypeId>
+				<xr:ValueId>bf104958-1d54-49e9-89e2-02ca3ff5de34</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogSelection.ДополнительныеСвойстваНоменклатуры" category="Selection">
-				<xr:TypeId>abb1e3ed-ec4e-4547-89b8-dbecf60ded27</xr:TypeId>
-				<xr:ValueId>c513c63c-8beb-4b7d-99c6-541f389df7a9</xr:ValueId>
+				<xr:TypeId>e3c47bac-73d3-4f7a-af6e-fb634dcb1e19</xr:TypeId>
+				<xr:ValueId>1f6150ce-27c2-4c11-8f9b-c17f0fbeacb2</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogList.ДополнительныеСвойстваНоменклатуры" category="List">
-				<xr:TypeId>a4d38bc4-4bea-4357-b468-3a83e9552ec2</xr:TypeId>
-				<xr:ValueId>b114b93f-60ff-4def-be43-3e22cf863ec8</xr:ValueId>
+				<xr:TypeId>3101797c-8779-4f49-b42b-cda700d69bdc</xr:TypeId>
+				<xr:ValueId>0abaca78-613f-418c-b3ea-5ab6d055526d</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogManager.ДополнительныеСвойстваНоменклатуры" category="Manager">
-				<xr:TypeId>5b6eee24-4564-4766-a5f5-08405d961348</xr:TypeId>
-				<xr:ValueId>77ab8603-f3b4-459f-8a66-61f0086d8a6b</xr:ValueId>
+				<xr:TypeId>ae37c6df-1317-4aeb-8663-4939c4bf1180</xr:TypeId>
+				<xr:ValueId>be06aa9b-fc3c-4647-8ca7-f36177441c10</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
@@ -39,7 +39,7 @@
 			<FoldersOnTop>true</FoldersOnTop>
 			<UseStandardCommands>true</UseStandardCommands>
 			<Owners>
-				<xr:Item xsi:type="xr:MDObjectRef">ChartOfCharacteristicTypes.СвойстваНомеклатуры</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">ChartOfCharacteristicTypes.СвойстваНоменклатуры</xr:Item>
 			</Owners>
 			<SubordinationUse>ToItems</SubordinationUse>
 			<CodeLength>9</CodeLength>
