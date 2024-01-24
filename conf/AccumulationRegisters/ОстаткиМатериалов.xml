@@ -1,30 +1,30 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
-	<AccumulationRegister uuid="a8466726-9d74-4672-af35-2226471fcaf4">
+	<AccumulationRegister uuid="4840b0e8-f8fd-45c6-8114-1c96648c013d">
 		<InternalInfo>
 			<xr:GeneratedType name="AccumulationRegisterRecord.ОстаткиМатериалов" category="Record">
-				<xr:TypeId>9a839f53-5642-42b2-bf7e-adcfbcc3287e</xr:TypeId>
-				<xr:ValueId>8dc884d0-d0af-43a3-8b8f-03d97c5c95e3</xr:ValueId>
+				<xr:TypeId>89112858-def1-4e25-92d4-63ae32b8bd0b</xr:TypeId>
+				<xr:ValueId>c38ce352-2e2b-41a9-89de-0910aa430c2f</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="AccumulationRegisterManager.ОстаткиМатериалов" category="Manager">
-				<xr:TypeId>2f3a3f28-944f-4223-905c-633509feabc8</xr:TypeId>
-				<xr:ValueId>d990cb06-86b0-4411-a10a-cf91fe06d2ad</xr:ValueId>
+				<xr:TypeId>2dfdf6bb-a8bf-4660-8614-d80cd091a303</xr:TypeId>
+				<xr:ValueId>c0870dde-fbec-4408-9b5c-f15b48847725</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="AccumulationRegisterSelection.ОстаткиМатериалов" category="Selection">
-				<xr:TypeId>5b22bb86-b2d6-4d5b-a4a4-6f004f93c614</xr:TypeId>
-				<xr:ValueId>8469efc8-843c-4975-90c4-4905070d0e50</xr:ValueId>
+				<xr:TypeId>236baa6a-7c94-4b40-8597-05e32079b44b</xr:TypeId>
+				<xr:ValueId>2ff3efec-4270-41db-bc44-058a27fc5d21</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="AccumulationRegisterList.ОстаткиМатериалов" category="List">
-				<xr:TypeId>c469dfd0-0b4e-4061-be6c-f18da5376396</xr:TypeId>
-				<xr:ValueId>2eb50253-8316-4c8d-9d41-0ad10f88c145</xr:ValueId>
+				<xr:TypeId>86faa340-447a-4abd-ad8b-0e838955a085</xr:TypeId>
+				<xr:ValueId>e8d446f5-e5e0-4e60-b49f-3d3a5955a93d</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="AccumulationRegisterRecordSet.ОстаткиМатериалов" category="RecordSet">
-				<xr:TypeId>4d344bc2-180d-468c-8c1a-cdfbd0ec76c8</xr:TypeId>
-				<xr:ValueId>82a6dd5b-e0b5-4821-88c9-2b69ee1e322a</xr:ValueId>
+				<xr:TypeId>affad898-ef7f-48fa-bab6-14e5a1f80958</xr:TypeId>
+				<xr:ValueId>c4c9418b-c3f6-4c5b-bd7f-270d22445c1e</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="AccumulationRegisterRecordKey.ОстаткиМатериалов" category="RecordKey">
-				<xr:TypeId>c42f45de-5a14-4f31-a4de-94aa44f59e64</xr:TypeId>
-				<xr:ValueId>3d436cd8-8e4a-47ba-aa6a-df5b52ecd143</xr:ValueId>
+				<xr:TypeId>ca855a9c-3b03-4638-b95f-3035bb2c6330</xr:TypeId>
+				<xr:ValueId>dd04d953-d87e-405a-b4a0-782c8b1b024f</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
@@ -54,7 +54,7 @@
 			<Explanation/>
 		</Properties>
 		<ChildObjects>
-			<Resource uuid="ff9a2583-ac74-4893-830e-3f1f2758384a">
+			<Resource uuid="7423d1d9-0a09-46fe-bfea-0b84f8e8ae16">
 				<Properties>
 					<Name>Количество</Name>
 					<Synonym>
@@ -94,7 +94,7 @@
 					<FullTextSearch>Use</FullTextSearch>
 				</Properties>
 			</Resource>
-			<Dimension uuid="95807f6c-c9e4-47d9-a87f-753e0e77b4aa">
+			<Dimension uuid="a6538845-7d05-4c80-9273-509200ca403d">
 				<Properties>
 					<Name>Материал</Name>
 					<Synonym>
@@ -132,7 +132,7 @@
 					<UseInTotals>true</UseInTotals>
 				</Properties>
 			</Dimension>
-			<Dimension uuid="6d49cab5-1306-4b83-9811-57a27c4b423d">
+			<Dimension uuid="998a5004-dc02-42f6-a59a-8c3acc726d32">
 				<Properties>
 					<Name>Склад</Name>
 					<Synonym>
@@ -170,7 +170,7 @@
 					<UseInTotals>true</UseInTotals>
 				</Properties>
 			</Dimension>
-			<Dimension uuid="2dc67455-3f52-4908-aeee-d8c0a7c7a81e">
+			<Dimension uuid="817dfa40-2ecc-4638-8cdf-4d565a17149c">
 				<Properties>
 					<Name>НаборСвойств</Name>
 					<Synonym>

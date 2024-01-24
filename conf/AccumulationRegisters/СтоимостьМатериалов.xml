@@ -1,30 +1,30 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
-	<AccumulationRegister uuid="5625571a-2334-4760-862f-d0d3d9a06ac0">
+	<AccumulationRegister uuid="b24dc61c-5716-4454-851b-6a098873b382">
 		<InternalInfo>
 			<xr:GeneratedType name="AccumulationRegisterRecord.СтоимостьМатериалов" category="Record">
-				<xr:TypeId>711d58cb-15d2-492c-bac6-6e0d29f8bd53</xr:TypeId>
-				<xr:ValueId>d3639415-f4a0-4357-b571-5a487459efc4</xr:ValueId>
+				<xr:TypeId>61c8c1c7-b20d-4ca9-a3ff-55648350c2d5</xr:TypeId>
+				<xr:ValueId>da99c12a-a68f-4972-90d8-ca256b26683f</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="AccumulationRegisterManager.СтоимостьМатериалов" category="Manager">
-				<xr:TypeId>c6599724-474e-44f4-99e1-15690e1be934</xr:TypeId>
-				<xr:ValueId>3a674659-4899-42a3-a6cd-06f0e89bc758</xr:ValueId>
+				<xr:TypeId>a7261c76-c203-4d21-adcc-6a3c6f20219d</xr:TypeId>
+				<xr:ValueId>93de0f61-3801-498b-8ed5-dd50ca2292d0</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="AccumulationRegisterSelection.СтоимостьМатериалов" category="Selection">
-				<xr:TypeId>d6712c19-dc50-4913-8f3d-c898f99f7633</xr:TypeId>
-				<xr:ValueId>a7d2f56e-4fbc-4e16-9d52-c77c17340c4a</xr:ValueId>
+				<xr:TypeId>7a38f864-fca1-4219-91d3-ef0aa6fc1924</xr:TypeId>
+				<xr:ValueId>4cd9a5f7-679f-4c37-b911-78d73b738a5e</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="AccumulationRegisterList.СтоимостьМатериалов" category="List">
-				<xr:TypeId>0744e567-ca61-4c17-9fe9-230ceb78bdcc</xr:TypeId>
-				<xr:ValueId>8566a80b-d88f-4276-ae25-7a462099815b</xr:ValueId>
+				<xr:TypeId>29f3332e-1291-4eef-9fd7-eafd6f56afc0</xr:TypeId>
+				<xr:ValueId>c5a5b0a1-58f7-4b72-91f0-2ec08bcad9a6</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="AccumulationRegisterRecordSet.СтоимостьМатериалов" category="RecordSet">
-				<xr:TypeId>6b761b3b-d85c-4444-a21d-41536895be37</xr:TypeId>
-				<xr:ValueId>b3c6d65b-0d66-47dd-9955-257ed9295e03</xr:ValueId>
+				<xr:TypeId>4367af67-0b9e-44df-a36b-282fd1f27162</xr:TypeId>
+				<xr:ValueId>27fe9f22-8405-4c45-9f33-ce2424550a93</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="AccumulationRegisterRecordKey.СтоимостьМатериалов" category="RecordKey">
-				<xr:TypeId>ba6bd931-39b8-48b0-b05d-2ec23f0840f6</xr:TypeId>
-				<xr:ValueId>04c08d19-975b-4d20-bb1b-30469b592d0c</xr:ValueId>
+				<xr:TypeId>4ec44e79-4a6d-4851-9ac0-b4854fbf2797</xr:TypeId>
+				<xr:ValueId>1c8aa984-abfd-4c15-9f96-39288db1198a</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
@@ -54,7 +54,7 @@
 			<Explanation/>
 		</Properties>
 		<ChildObjects>
-			<Resource uuid="56058b7f-4b6e-463e-9ef6-639bd9bf35d8">
+			<Resource uuid="ceb82a91-0565-436d-9bec-1f55adedd210">
 				<Properties>
 					<Name>Стоимость</Name>
 					<Synonym>
@@ -94,7 +94,7 @@
 					<FullTextSearch>Use</FullTextSearch>
 				</Properties>
 			</Resource>
-			<Dimension uuid="1b657a49-2735-4d34-bca1-0dea0fbbf958">
+			<Dimension uuid="d18ea407-00f2-4ec7-b29d-961daeb88b9e">
 				<Properties>
 					<Name>Материал</Name>
 					<Synonym>

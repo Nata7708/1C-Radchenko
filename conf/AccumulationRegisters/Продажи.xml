@@ -1,30 +1,30 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
-	<AccumulationRegister uuid="afe031d2-e808-47fe-9695-8bd8330a03d2">
+	<AccumulationRegister uuid="406ff1a6-575d-4f0a-bcc4-69e0734e8951">
 		<InternalInfo>
 			<xr:GeneratedType name="AccumulationRegisterRecord.Продажи" category="Record">
-				<xr:TypeId>11600c6c-27c9-485e-b626-9808dc11eb99</xr:TypeId>
-				<xr:ValueId>754021d1-cb43-4520-9fc7-6ca9ff801cf7</xr:ValueId>
+				<xr:TypeId>c135d165-4071-4ec1-a691-ba2cd9c78357</xr:TypeId>
+				<xr:ValueId>868926a2-4f0b-4fde-a859-908448cbc301</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="AccumulationRegisterManager.Продажи" category="Manager">
-				<xr:TypeId>16e1bd47-2fe1-496d-9e8f-afcaaa656f67</xr:TypeId>
-				<xr:ValueId>27807cb8-854f-468e-a87f-1b991ce9cb7a</xr:ValueId>
+				<xr:TypeId>8915727a-4c6e-4848-89c0-b9ef1e84977e</xr:TypeId>
+				<xr:ValueId>45321aa9-adc1-4ed1-8083-8b72ee51793b</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="AccumulationRegisterSelection.Продажи" category="Selection">
-				<xr:TypeId>e07b824b-dec4-4125-bca1-8043979aa37b</xr:TypeId>
-				<xr:ValueId>c5ac69c3-195d-4b87-8dbf-488956ba82b4</xr:ValueId>
+				<xr:TypeId>e33ee769-b1ac-4ae6-a2e2-ed0f57c58ba5</xr:TypeId>
+				<xr:ValueId>a2e5dc67-f880-4e7b-a1b0-b8124c4c72fe</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="AccumulationRegisterList.Продажи" category="List">
-				<xr:TypeId>ab3727a0-0b4f-4f1e-8f62-f99064dfa2c6</xr:TypeId>
-				<xr:ValueId>ed860901-d89d-4c54-b9d6-7d996f91eed1</xr:ValueId>
+				<xr:TypeId>952be997-9366-4223-8405-f0c6317eb290</xr:TypeId>
+				<xr:ValueId>c41c68b3-a108-4122-861e-66d51a32a6c8</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="AccumulationRegisterRecordSet.Продажи" category="RecordSet">
-				<xr:TypeId>4b9c9df2-6d78-419e-8b92-cab8f5c01249</xr:TypeId>
-				<xr:ValueId>778a6b8c-cd70-450d-8f9a-fabda20100d4</xr:ValueId>
+				<xr:TypeId>69aedf57-9d9c-478e-bce4-de710806dceb</xr:TypeId>
+				<xr:ValueId>634c0192-6084-4e57-bf15-cc5b5e84b20a</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="AccumulationRegisterRecordKey.Продажи" category="RecordKey">
-				<xr:TypeId>b15caa10-49f6-471b-b073-8283d02a5ab2</xr:TypeId>
-				<xr:ValueId>376e295f-640d-458f-af83-0334910e9352</xr:ValueId>
+				<xr:TypeId>47d3d820-9652-4973-b06b-65763aa60ce4</xr:TypeId>
+				<xr:ValueId>49f88511-6885-48ce-80f6-d72625973209</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
@@ -54,7 +54,7 @@
 			<Explanation/>
 		</Properties>
 		<ChildObjects>
-			<Resource uuid="5068ae89-74fe-470b-a42d-a42aa664cb39">
+			<Resource uuid="5d18fa5b-b60a-4978-b957-363a64b42ff7">
 				<Properties>
 					<Name>Количество</Name>
 					<Synonym>
@@ -94,7 +94,7 @@
 					<FullTextSearch>Use</FullTextSearch>
 				</Properties>
 			</Resource>
-			<Resource uuid="b7fac1e3-99a3-4961-a577-8ca2415ea3c1">
+			<Resource uuid="a0257bb6-9db6-4713-94f1-59bc4a02309d">
 				<Properties>
 					<Name>Выручка</Name>
 					<Synonym>
@@ -134,7 +134,7 @@
 					<FullTextSearch>Use</FullTextSearch>
 				</Properties>
 			</Resource>
-			<Resource uuid="608785e2-e11e-461d-914b-debb5166693b">
+			<Resource uuid="9b4f0c64-b871-42ba-901a-c188899b4d25">
 				<Properties>
 					<Name>Стоимость</Name>
 					<Synonym>
@@ -174,7 +174,7 @@
 					<FullTextSearch>Use</FullTextSearch>
 				</Properties>
 			</Resource>
-			<Dimension uuid="53b46d41-fc04-4225-8c69-fa81a191f124">
+			<Dimension uuid="aae332c7-5ff8-4d39-9850-e74d62376cac">
 				<Properties>
 					<Name>Номенклатура</Name>
 					<Synonym>
@@ -212,7 +212,7 @@
 					<UseInTotals>true</UseInTotals>
 				</Properties>
 			</Dimension>
-			<Dimension uuid="ccccb067-77ae-4173-ac8c-d19709fa7547">
+			<Dimension uuid="c9f5fcbb-e767-4409-9166-f90459824454">
 				<Properties>
 					<Name>Клиент</Name>
 					<Synonym>
@@ -250,7 +250,7 @@
 					<UseInTotals>true</UseInTotals>
 				</Properties>
 			</Dimension>
-			<Dimension uuid="8c045877-9835-461b-803c-2c52262071ec">
+			<Dimension uuid="1ae40127-e8f2-4d99-bf3c-123b402bf87b">
 				<Properties>
 					<Name>Мастер</Name>
 					<Synonym>
