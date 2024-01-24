@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
-	<Report uuid="0d94bec2-953a-4c9e-bad1-f3b88dbfdca0">
+	<Report uuid="2e1f655f-9fb5-4b01-9ffe-78bd0169df57">
 		<InternalInfo>
 			<xr:GeneratedType name="ReportObject.ПереченьУслуг" category="Object">
-				<xr:TypeId>d7b7e16b-b9d1-4809-9622-91bedec8f014</xr:TypeId>
-				<xr:ValueId>f75606ca-79c0-4f3f-8816-a252a5b49d0c</xr:ValueId>
+				<xr:TypeId>493a7ac4-b025-475f-8d58-b57980bc81b1</xr:TypeId>
+				<xr:ValueId>35ff6612-17ab-461d-8d86-a62a89032f06</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="ReportManager.ПереченьУслуг" category="Manager">
-				<xr:TypeId>56c6fde2-4d4d-4de7-bf16-807da1bda4f3</xr:TypeId>
-				<xr:ValueId>0afd4bc3-7120-43f5-9b6e-505504be178c</xr:ValueId>
+				<xr:TypeId>72524e01-3db7-46ac-8b10-a9db0888eda8</xr:TypeId>
+				<xr:ValueId>9b4c5516-11ce-4349-a588-62b3d3c5d838</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>

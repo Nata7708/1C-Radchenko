@@ -7,29 +7,11 @@
 	<dataSet xsi:type="DataSetQuery">
 		<name>НаборДанных1</name>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>Мастер</dataPath>
-			<field>Мастер</field>
-			<role>
-				<dcscom:dimension>true</dcscom:dimension>
-			</role>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>Номенклатура</dataPath>
-			<field>Номенклатура</field>
-		</field>
-		<field xsi:type="DataSetFieldField">
 			<dataPath>Период</dataPath>
 			<field>Период</field>
 			<role>
 				<dcscom:periodNumber>1</dcscom:periodNumber>
 				<dcscom:periodType>Main</dcscom:periodType>
-			</role>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>Клиент</dataPath>
-			<field>Клиент</field>
-			<role>
-				<dcscom:dimension>true</dcscom:dimension>
 			</role>
 		</field>
 		<field xsi:type="DataSetFieldField">
@@ -41,6 +23,24 @@
 					<v8:content>Выручка</v8:content>
 				</v8:item>
 			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Клиент</dataPath>
+			<field>Клиент</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Мастер</dataPath>
+			<field>Мастер</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Номенклатура</dataPath>
+			<field>Номенклатура</field>
 		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
@@ -66,7 +66,7 @@
 		<valueType>
 			<v8:Type>xs:dateTime</v8:Type>
 			<v8:DateQualifiers>
-				<v8:DateFractions>DateTime</v8:DateFractions>
+				<v8:DateFractions>Date</v8:DateFractions>
 			</v8:DateQualifiers>
 		</valueType>
 		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
@@ -107,13 +107,13 @@
 					<dcscor:use>false</dcscor:use>
 					<dcscor:parameter>НачалоПериода</dcscor:parameter>
 					<dcscor:value xsi:type="xs:dateTime">0001-01-01T00:00:00</dcscor:value>
-					<dcsset:userSettingID>75134c19-0a27-4125-9f4f-6e0784980c59</dcsset:userSettingID>
+					<dcsset:userSettingID>c61bdd39-ba66-4cf6-9e33-c20090a19307</dcsset:userSettingID>
 				</dcscor:item>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:use>false</dcscor:use>
 					<dcscor:parameter>КонецПериода</dcscor:parameter>
 					<dcscor:value xsi:type="xs:dateTime">0001-01-01T00:00:00</dcscor:value>
-					<dcsset:userSettingID>df2399b4-6245-431e-9583-01e61c3d63a8</dcsset:userSettingID>
+					<dcsset:userSettingID>48ae9338-0e7d-4ebe-96fa-4eb55e1a7307</dcsset:userSettingID>
 				</dcscor:item>
 			</dcsset:dataParameters>
 			<dcsset:outputParameters>
@@ -198,13 +198,13 @@
 					<dcscor:use>false</dcscor:use>
 					<dcscor:parameter>НачалоПериода</dcscor:parameter>
 					<dcscor:value xsi:type="xs:dateTime">0001-01-01T00:00:00</dcscor:value>
-					<dcsset:userSettingID>26441a65-04cc-4e76-8657-d635b4de6965</dcsset:userSettingID>
+					<dcsset:userSettingID>9aba3bf7-ad18-4df7-90d8-d48062c39706</dcsset:userSettingID>
 				</dcscor:item>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:use>false</dcscor:use>
 					<dcscor:parameter>КонецПериода</dcscor:parameter>
 					<dcscor:value xsi:type="xs:dateTime">0001-01-01T00:00:00</dcscor:value>
-					<dcsset:userSettingID>241c9887-03a3-4581-b087-d3bc420dccb7</dcsset:userSettingID>
+					<dcsset:userSettingID>f3047d90-a0e2-46e2-aa33-996c8481fc0e</dcsset:userSettingID>
 				</dcscor:item>
 			</dcsset:dataParameters>
 			<dcsset:outputParameters>
@@ -212,77 +212,44 @@
 					<dcscor:parameter>ТипДиаграммы</dcscor:parameter>
 					<dcscor:value xsi:type="v8ui:ChartType">Gauge</dcscor:value>
 					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-						<dcscor:parameter>ТипДиаграммы.ИнформационныеИнтервалыЗначений</dcscor:parameter>
-						<dcscor:value xmlns:d7p1="http://v8.1c.ru/8.2/data/chart" xsi:type="d7p1:ChartReferenceBands">
-							<d7p1:referenceBand>
-								<d7p1:begin xsi:type="xs:decimal">0</d7p1:begin>
-								<d7p1:end xsi:type="xs:decimal">999</d7p1:end>
-								<d7p1:labelText>
+						<dcscor:parameter>ТипДиаграммы.ПолосыИзмерительнойДиаграммы</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:GaugeChartQualityBands" useTextStr="false" useTooltipStr="false">
+							<v8ui:item>
+								<v8ui:begin>0</v8ui:begin>
+								<v8ui:end>999</v8ui:end>
+								<v8ui:backColor>#FFFF99</v8ui:backColor>
+								<v8ui:text>
 									<v8:item>
 										<v8:lang>ru</v8:lang>
 										<v8:content>Плохо</v8:content>
 									</v8:item>
-								</d7p1:labelText>
-								<d7p1:labelArea>
-									<d7p1:font kind="AutoFont"/>
-									<d7p1:textColor>auto</d7p1:textColor>
-									<d7p1:backColor>auto</d7p1:backColor>
-									<d7p1:border width="1">
-										<v8ui:style xsi:type="v8ui:ControlBorderType">WithoutBorder</v8ui:style>
-									</d7p1:border>
-									<d7p1:borderColor>auto</d7p1:borderColor>
-								</d7p1:labelArea>
-								<d7p1:color>#FFFF00</d7p1:color>
-								<d7p1:borderColor>#FFFF00</d7p1:borderColor>
-							</d7p1:referenceBand>
-							<d7p1:referenceBand>
-								<d7p1:begin xsi:type="xs:decimal">1000</d7p1:begin>
-								<d7p1:end xsi:type="xs:decimal">2000</d7p1:end>
-								<d7p1:labelText>
+								</v8ui:text>
+								<v8ui:tooltip/>
+							</v8ui:item>
+							<v8ui:item>
+								<v8ui:begin>1000</v8ui:begin>
+								<v8ui:end>2000</v8ui:end>
+								<v8ui:backColor>#32CD32</v8ui:backColor>
+								<v8ui:text>
 									<v8:item>
 										<v8:lang>ru</v8:lang>
 										<v8:content>Хорошо</v8:content>
 									</v8:item>
-								</d7p1:labelText>
-								<d7p1:labelArea>
-									<d7p1:font kind="AutoFont"/>
-									<d7p1:textColor>auto</d7p1:textColor>
-									<d7p1:backColor>auto</d7p1:backColor>
-									<d7p1:border width="1">
-										<v8ui:style xsi:type="v8ui:ControlBorderType">WithoutBorder</v8ui:style>
-									</d7p1:border>
-									<d7p1:borderColor>auto</d7p1:borderColor>
-								</d7p1:labelArea>
-								<d7p1:color>#00FF00</d7p1:color>
-								<d7p1:borderColor>#00FF00</d7p1:borderColor>
-							</d7p1:referenceBand>
-							<d7p1:referenceBand>
-								<d7p1:begin xsi:type="xs:decimal">2001</d7p1:begin>
-								<d7p1:end xsi:type="xs:decimal">3000</d7p1:end>
-								<d7p1:labelText>
+								</v8ui:text>
+								<v8ui:tooltip/>
+							</v8ui:item>
+							<v8ui:item>
+								<v8ui:begin>2001</v8ui:begin>
+								<v8ui:end>3000</v8ui:end>
+								<v8ui:backColor>#FF00FF</v8ui:backColor>
+								<v8ui:text>
 									<v8:item>
 										<v8:lang>ru</v8:lang>
 										<v8:content>Отлично</v8:content>
 									</v8:item>
-								</d7p1:labelText>
-								<d7p1:toolTip>
-									<v8:item>
-										<v8:lang>ru</v8:lang>
-										<v8:content>Отлично</v8:content>
-									</v8:item>
-								</d7p1:toolTip>
-								<d7p1:labelArea>
-									<d7p1:font kind="AutoFont"/>
-									<d7p1:textColor>auto</d7p1:textColor>
-									<d7p1:backColor>auto</d7p1:backColor>
-									<d7p1:border width="1">
-										<v8ui:style xsi:type="v8ui:ControlBorderType">WithoutBorder</v8ui:style>
-									</d7p1:border>
-									<d7p1:borderColor>auto</d7p1:borderColor>
-								</d7p1:labelArea>
-								<d7p1:color>#FF00FF</d7p1:color>
-								<d7p1:borderColor>#FF00FF</d7p1:borderColor>
-							</d7p1:referenceBand>
+								</v8ui:text>
+								<v8ui:tooltip/>
+							</v8ui:item>
 						</dcscor:value>
 					</dcscor:item>
 				</dcscor:item>

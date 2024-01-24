@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
-	<Report uuid="3b15ba84-460a-4747-bf17-b8c9e99f9f39">
+	<Report uuid="7110b5d9-4e83-4842-b873-085fc691d475">
 		<InternalInfo>
 			<xr:GeneratedType name="ReportObject.РеестрДокументовОказаниеУслуги" category="Object">
-				<xr:TypeId>856901f3-d58e-4d46-9985-66d6293e89e5</xr:TypeId>
-				<xr:ValueId>c38549cb-360e-4f03-af02-d8fb5e8c72de</xr:ValueId>
+				<xr:TypeId>1cca02c3-e832-4e29-8af3-8ed30b1d2a59</xr:TypeId>
+				<xr:ValueId>e3ab75fd-5ba5-4d13-9723-152f014bcc26</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="ReportManager.РеестрДокументовОказаниеУслуги" category="Manager">
-				<xr:TypeId>c2007833-72fe-4b84-a541-f8251c7567e6</xr:TypeId>
-				<xr:ValueId>e3776f2b-9908-461f-a09d-eb0d340ed0b2</xr:ValueId>
+				<xr:TypeId>fc641298-5cdc-4040-a7cc-68f00cd07dc4</xr:TypeId>
+				<xr:ValueId>eb9800bb-e4f7-4d17-9826-53738f7e498c</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>

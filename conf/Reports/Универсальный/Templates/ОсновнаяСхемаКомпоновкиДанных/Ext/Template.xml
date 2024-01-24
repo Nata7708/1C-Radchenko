@@ -7,15 +7,8 @@
 	<dataSet xsi:type="DataSetQuery">
 		<name>НаборДанных1</name>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>СтоимостьОборот</dataPath>
-			<field>СтоимостьОборот</field>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>Номенклатура</dataPath>
-			<field>Номенклатура</field>
-			<role>
-				<dcscom:dimension>true</dcscom:dimension>
-			</role>
+			<dataPath>ВыручкаОборот</dataPath>
+			<field>ВыручкаОборот</field>
 		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>Клиент</dataPath>
@@ -25,6 +18,10 @@
 			</role>
 		</field>
 		<field xsi:type="DataSetFieldField">
+			<dataPath>КоличествоОборот</dataPath>
+			<field>КоличествоОборот</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
 			<dataPath>Мастер</dataPath>
 			<field>Мастер</field>
 			<role>
@@ -32,12 +29,15 @@
 			</role>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>КоличествоОборот</dataPath>
-			<field>КоличествоОборот</field>
+			<dataPath>Номенклатура</dataPath>
+			<field>Номенклатура</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>ВыручкаОборот</dataPath>
-			<field>ВыручкаОборот</field>
+			<dataPath>СтоимостьОборот</dataPath>
+			<field>СтоимостьОборот</field>
 		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
@@ -102,10 +102,10 @@
 		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
 			<dcsset:item xsi:type="dcsset:StructureItemTable">
 				<dcsset:selection>
-					<dcsset:userSettingID>f34a5b7f-999d-4a31-965c-dc6f536f2394</dcsset:userSettingID>
+					<dcsset:userSettingID>7712cc44-d740-42bb-a9b6-00e65b63deb0</dcsset:userSettingID>
 				</dcsset:selection>
-				<dcsset:columnsUserSettingID>6a5ece44-74bc-43dd-90fa-e52f7784bf1c</dcsset:columnsUserSettingID>
-				<dcsset:rowsUserSettingID>58d35104-a522-43d6-89b7-67190f2f805e</dcsset:rowsUserSettingID>
+				<dcsset:columnsUserSettingID>d71b226b-9dc7-4ece-bae3-6922383b854c</dcsset:columnsUserSettingID>
+				<dcsset:rowsUserSettingID>105325b8-b593-4184-abaf-2e1dfc33bc2e</dcsset:rowsUserSettingID>
 			</dcsset:item>
 		</dcsset:settings>
 	</settingsVariant>

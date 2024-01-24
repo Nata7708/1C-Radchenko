@@ -7,13 +7,6 @@
 	<dataSet xsi:type="DataSetQuery">
 		<name>НаборДанных1</name>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>Клиент</dataPath>
-			<field>Клиент</field>
-			<role>
-				<dcscom:dimension>true</dcscom:dimension>
-			</role>
-		</field>
-		<field xsi:type="DataSetFieldField">
 			<dataPath>Выручка</dataPath>
 			<field>Выручка</field>
 			<title xsi:type="v8:LocalStringType">
@@ -22,6 +15,21 @@
 					<v8:content>Выручка</v8:content>
 				</v8:item>
 			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Клиент</dataPath>
+			<field>Клиент</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Мастер</dataPath>
+			<field>Мастер</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Номенклатура</dataPath>
+			<field>Номенклатура</field>
 		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>Стоимость</dataPath>
@@ -33,14 +41,6 @@
 				</v8:item>
 			</title>
 		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>Номенклатура</dataPath>
-			<field>Номенклатура</field>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>Мастер</dataPath>
-			<field>Мастер</field>
-		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
 	ПродажиОбороты.Клиент,
@@ -51,7 +51,7 @@
 	</dataSet>
 	<calculatedField>
 		<dataPath>Доход</dataPath>
-		<expression>Выручка-Стоимость</expression>
+		<expression>Выручка - Стоимость</expression>
 		<title xsi:type="v8:LocalStringType">
 			<v8:item>
 				<v8:lang>ru</v8:lang>
@@ -118,7 +118,7 @@
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>ТипДиаграммы</dcscor:parameter>
 					<dcscor:value xsi:type="v8ui:ChartType">Pie3D</dcscor:value>
-					<dcsset:userSettingID>99cb4696-848b-4d8c-aa8c-f164037bcebc</dcsset:userSettingID>
+					<dcsset:userSettingID>fa768f6f-3705-4a72-9d8a-c25a9f4ecfe4</dcsset:userSettingID>
 				</dcscor:item>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>Заголовок</dcscor:parameter>

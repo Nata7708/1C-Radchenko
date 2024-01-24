@@ -7,8 +7,14 @@
 	<dataSet xsi:type="DataSetQuery">
 		<name>НаборДанных1</name>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>Склад</dataPath>
-			<field>Склад</field>
+			<dataPath>Документ</dataPath>
+			<field>Документ</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Документ</v8:content>
+				</v8:item>
+			</title>
 		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>Клиент</dataPath>
@@ -19,23 +25,17 @@
 			<field>Мастер</field>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>Документ</dataPath>
-			<field>Документ</field>
-			<title xsi:type="v8:LocalStringType">
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Документ</v8:content>
-				</v8:item>
-			</title>
+			<dataPath>Склад</dataPath>
+			<field>Склад</field>
 		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
-	ОказаниеУслуг.Склад,
-	ОказаниеУслуг.Клиент,
-	ОказаниеУслуг.Мастер,
-	ОказаниеУслуг.Ссылка КАК Документ
+	ОказаниеУслуги.Склад,
+	ОказаниеУслуги.Мастер,
+	ОказаниеУслуги.Клиент,
+	ОказаниеУслуги.Ссылка КАК Документ
 ИЗ
-	Документ.ОказаниеУслуг КАК ОказаниеУслуг
+	Документ.ОказаниеУслуги КАК ОказаниеУслуги
 
 УПОРЯДОЧИТЬ ПО
 	Документ</query>

@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
-	<Report uuid="66950640-63b8-4019-9da6-babcafa45a85">
+	<Report uuid="c580c5e0-a6f8-4dab-b096-4c81bb6ca915">
 		<InternalInfo>
 			<xr:GeneratedType name="ReportObject.ОстаткиМатериаловПоСвойствам" category="Object">
-				<xr:TypeId>4d48fbc2-220f-4551-99a4-5053257cd9a4</xr:TypeId>
-				<xr:ValueId>af44d618-5ce6-480f-8003-3bb26abc555e</xr:ValueId>
+				<xr:TypeId>9b0e87f4-9ae9-4592-b16d-229fb0c860fb</xr:TypeId>
+				<xr:ValueId>de47d9a7-d537-4d68-aeab-e469f68a7db4</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="ReportManager.ОстаткиМатериаловПоСвойствам" category="Manager">
-				<xr:TypeId>8ffb5a51-dfea-4023-b241-928d207d092c</xr:TypeId>
-				<xr:ValueId>b6fc6fd3-12f5-41b7-bcca-8c3fb30d517b</xr:ValueId>
+				<xr:TypeId>47411774-839c-486a-ae0c-159a19bd07ff</xr:TypeId>
+				<xr:ValueId>059b01bd-7d64-4fb1-9da4-2bc95c539075</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>

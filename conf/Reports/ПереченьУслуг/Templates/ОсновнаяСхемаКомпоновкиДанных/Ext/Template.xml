@@ -32,15 +32,15 @@
 		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
-	СпрНоменклатура.Родитель КАК ГруппаУслуг,
-	СпрНоменклатура.Ссылка КАК Услуга,
+	спрНоменклатура.Родитель КАК ГруппаУслуг,
+	спрНоменклатура.Ссылка КАК Услуга,
 	ЦеныСрезПоследних.Цена
 ИЗ
-	Справочник.Номенклатура КАК СпрНоменклатура
+	Справочник.Номенклатура КАК спрНоменклатура
 		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.Цены.СрезПоследних(&amp;ДатаОтчета, ) КАК ЦеныСрезПоследних
-		ПО ЦеныСрезПоследних.Номенклатура = СпрНоменклатура.Ссылка
+		ПО ЦеныСрезПоследних.Номенклатура = спрНоменклатура.Ссылка
 ГДЕ
-	СпрНоменклатура.ВидНоменклатуры = &amp;ВидНоменклатуры</query>
+	спрНоменклатура.ВидНоменклатуры = &amp;ВидНоменклатуры</query>
 	</dataSet>
 	<totalField>
 		<dataPath>Цена</dataPath>
@@ -77,9 +77,6 @@
 		</valueType>
 		<value xsi:type="dcscor:DesignTimeValue">Перечисление.ВидыНоменклатуры.Услуга</value>
 		<useRestriction>true</useRestriction>
-		<availableValue>
-			<value xsi:type="dcscor:DesignTimeValue">Перечисление.ВидыНоменклатуры.Услуга</value>
-		</availableValue>
 	</parameter>
 	<parameter>
 		<name>ДатаОтчета</name>
@@ -115,7 +112,7 @@
 					<dcscor:use>false</dcscor:use>
 					<dcscor:parameter>ДатаОтчета</dcscor:parameter>
 					<dcscor:value xsi:type="xs:dateTime">0001-01-01T00:00:00</dcscor:value>
-					<dcsset:userSettingID>b562bbfc-26bc-4262-ae9c-c372f4f5bae5</dcsset:userSettingID>
+					<dcsset:userSettingID>21854e79-1923-4375-b683-bb909f345899</dcsset:userSettingID>
 				</dcscor:item>
 			</dcsset:dataParameters>
 			<dcsset:outputParameters>
