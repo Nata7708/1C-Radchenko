@@ -1,42 +1,42 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
-	<InformationRegister uuid="362c1fd8-9a96-4a7d-b456-e1a2eaf02e74">
+	<InformationRegister uuid="f97292a9-2a2e-4ab9-98b5-29de64395fe1">
 		<InternalInfo>
-			<xr:GeneratedType name="InformationRegisterRecord.Цены" category="Record">
-				<xr:TypeId>24858ffc-7e58-4274-bd82-68ee2884b1b8</xr:TypeId>
-				<xr:ValueId>deb69ecc-b3e1-43df-b5b7-be08739e5970</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterRecord.ГрафикиРаботы" category="Record">
+				<xr:TypeId>8c9f3231-4e5f-4240-9c2b-23b3432e3062</xr:TypeId>
+				<xr:ValueId>8fdbdf18-01c6-4f17-b61e-375456ef41a6</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterManager.Цены" category="Manager">
-				<xr:TypeId>09d1fde1-c6d2-41a4-9534-53e79607ae0b</xr:TypeId>
-				<xr:ValueId>6cfd3f08-51d8-4814-9417-a3ebe2d611e5</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterManager.ГрафикиРаботы" category="Manager">
+				<xr:TypeId>4978586b-535b-4dab-bacb-5302225a72d6</xr:TypeId>
+				<xr:ValueId>31df833c-6833-4ae4-94cc-2c4a16777a7e</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterSelection.Цены" category="Selection">
-				<xr:TypeId>a84845df-ef3e-4d1b-b9a7-36af6e3e3e31</xr:TypeId>
-				<xr:ValueId>dec0c668-4cb6-4ab3-a317-05901e048b8a</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterSelection.ГрафикиРаботы" category="Selection">
+				<xr:TypeId>0e8dadd1-9ff2-4f5a-a247-cd0492d45fce</xr:TypeId>
+				<xr:ValueId>10e09c32-ed5c-47ab-8f1a-d562601bd17c</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterList.Цены" category="List">
-				<xr:TypeId>03cf546b-e40e-47db-8fd2-9b642d133664</xr:TypeId>
-				<xr:ValueId>07855662-d37f-4481-a0d6-ce6549045cc1</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterList.ГрафикиРаботы" category="List">
+				<xr:TypeId>b97fa03c-6e22-43c0-8d36-fa09e68dbb66</xr:TypeId>
+				<xr:ValueId>304f90a5-b7e0-438d-82fc-0487aaafa74b</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterRecordSet.Цены" category="RecordSet">
-				<xr:TypeId>19cd9298-0c07-4843-8cbb-3dc5529fdbe6</xr:TypeId>
-				<xr:ValueId>88aa5424-df29-4e4d-8ebe-9072c202bcd4</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ГрафикиРаботы" category="RecordSet">
+				<xr:TypeId>84c2575a-8517-49dc-80f5-efb7737aa54e</xr:TypeId>
+				<xr:ValueId>ba58485b-b6c1-42a0-90e2-7f434f11530c</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterRecordKey.Цены" category="RecordKey">
-				<xr:TypeId>8e955782-8f96-4857-846d-0be48cf475b6</xr:TypeId>
-				<xr:ValueId>7e78ca81-2e63-4a8a-a89b-d720931e3dc1</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ГрафикиРаботы" category="RecordKey">
+				<xr:TypeId>7c889a18-1d73-4fe0-81c8-4984edbd8185</xr:TypeId>
+				<xr:ValueId>4625193c-2f95-4f05-bf41-e65bafd54809</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="InformationRegisterRecordManager.Цены" category="RecordManager">
-				<xr:TypeId>d294ab65-5a99-4e84-a165-d5e91f732eec</xr:TypeId>
-				<xr:ValueId>4565f43e-0dad-4353-a321-3eaf46895795</xr:ValueId>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ГрафикиРаботы" category="RecordManager">
+				<xr:TypeId>298b1f4a-f5ae-4a1b-bcb5-228d67299758</xr:TypeId>
+				<xr:ValueId>141dab2d-461b-40fe-b09a-6947a9e7c064</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>Цены</Name>
+			<Name>ГрафикиРаботы</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Цены</v8:content>
+					<v8:content>Графики работы</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -46,27 +46,17 @@
 			<DefaultListForm/>
 			<AuxiliaryRecordForm/>
 			<AuxiliaryListForm/>
-			<InformationRegisterPeriodicity>Second</InformationRegisterPeriodicity>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
 			<WriteMode>Independent</WriteMode>
-			<MainFilterOnPeriod>true</MainFilterOnPeriod>
+			<MainFilterOnPeriod>false</MainFilterOnPeriod>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<DataLockControlMode>Managed</DataLockControlMode>
 			<FullTextSearch>DontUse</FullTextSearch>
 			<EnableTotalsSliceFirst>false</EnableTotalsSliceFirst>
 			<EnableTotalsSliceLast>false</EnableTotalsSliceLast>
-			<RecordPresentation>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Цена</v8:content>
-				</v8:item>
-			</RecordPresentation>
+			<RecordPresentation/>
 			<ExtendedRecordPresentation/>
-			<ListPresentation>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Цены на номенклатуру</v8:content>
-				</v8:item>
-			</ListPresentation>
+			<ListPresentation/>
 			<ExtendedListPresentation/>
 			<Explanation/>
 			<DataHistory>DontUse</DataHistory>
@@ -74,22 +64,22 @@
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
 		<ChildObjects>
-			<Resource uuid="1f056e9f-a75b-4822-9f39-48942f710d3a">
+			<Resource uuid="580994fb-76b2-4c30-aeec-ec6b5a009cf3">
 				<Properties>
-					<Name>Цена</Name>
+					<Name>Значение</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Цена</v8:content>
+							<v8:content>Значение</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
 						<v8:Type>xs:decimal</v8:Type>
 						<v8:NumberQualifiers>
-							<v8:Digits>15</v8:Digits>
-							<v8:FractionDigits>2</v8:FractionDigits>
-							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+							<v8:Digits>1</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
 						</v8:NumberQualifiers>
 					</Type>
 					<PasswordMode>false</PasswordMode>
@@ -118,18 +108,18 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Resource>
-			<Dimension uuid="589302df-3d70-45a4-be16-28b66c748e45">
+			<Dimension uuid="e14e07f8-01e8-44e9-9e70-5c31fddb1843">
 				<Properties>
-					<Name>Номенклатура</Name>
+					<Name>ГрафикРаботы</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Номенклатура</v8:content>
+							<v8:content>График работы</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+						<v8:Type>cfg:CatalogRef.ВидыГрафиковРаботы</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
@@ -141,7 +131,7 @@
 					<ExtendedEdit>false</ExtendedEdit>
 					<MinValue xsi:nil="true"/>
 					<MaxValue xsi:nil="true"/>
-					<FillFromFillingValue>true</FillFromFillingValue>
+					<FillFromFillingValue>false</FillFromFillingValue>
 					<FillValue xsi:nil="true"/>
 					<FillChecking>DontCheck</FillChecking>
 					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
@@ -152,7 +142,52 @@
 					<ChoiceForm/>
 					<LinkByType/>
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Master>true</Master>
+					<Master>false</Master>
+					<MainFilter>true</MainFilter>
+					<DenyIncompleteValues>false</DenyIncompleteValues>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="6e48f00d-2d92-4223-a52e-4e4e4e844d10">
+				<Properties>
+					<Name>Дата</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дата</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Master>false</Master>
 					<MainFilter>true</MainFilter>
 					<DenyIncompleteValues>false</DenyIncompleteValues>
 					<Indexing>DontIndex</Indexing>
